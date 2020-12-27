@@ -12,4 +12,4 @@
 
 ## 訂正など
 
-* 付録A（p.178）で `pd.read_excel('〜.xlsx')` となっているところは [xlrd パッケージの仕様変更](https://oku.edu.mie-u.ac.jp/~okumura/python/201212.html) のため今後は `pd.read_excel('〜.xlsx', engine='openpyxl')` とする必要があります（`openpyxl` がインストールされていなければ `pip install openpyxl` します）。
+* ~~付録A（p.178）で `pd.read_excel('〜.xlsx')` となっているところは [xlrd パッケージの仕様変更](https://oku.edu.mie-u.ac.jp/~okumura/python/201212.html) のため今後は `pd.read_excel('〜.xlsx', engine='openpyxl')` とする必要があります（`openpyxl` がインストールされていなければ `pip install openpyxl` します）。~~ ←この件，pandas側で対応されたので，今まで通りの使い方で大丈夫です（`openpyxl` は必要です）。
